@@ -1,0 +1,39 @@
+﻿Recipe Keeper User Manual
+Introduction
+Recipe Keeper is a simple desktop application built with Python and Tkinter that allows users to save and view their favorite recipes. This user manual provides instructions on how to use the application effectively.
+Installation
+To use Recipe Keeper, ensure you have Python installed on your system. You can download Python from the official website: python.org. The application also requires the Pillow library for image handling. You can install it using pip:
+
+
+pip install Pillow
+
+
+Getting Started
+1. Launch the Application: Double-click the Python script recipe_keeper.py to launch the Recipe Keeper application.
+2. Main Window:
+   * Title: The main window displays the title "Recipe Keeper".
+   * Recipe Entry: Enter your recipe in the text box provided.
+   * Buttons:
+      * Save Recipe: Click this button to save the entered recipe.
+      * View Recipes: Click this button to view all saved recipes.
+      * Exit: Click this button to close the application.
+3. Saving a Recipe:
+   * Enter your recipe in the text box provided.
+   * Click the "Save Recipe" button.
+   * A confirmation message will appear indicating that your recipe has been saved.
+4. Viewing Saved Recipes:
+   * Click the "View Recipes" button.
+   * A new window titled "View Recipes" will open.
+   * All saved recipes will be displayed with a corresponding recipe number.
+   * Scroll through the list of recipes using the scrollbar provided.
+   * Close the window when done viewing recipes.
+5. Exiting the Application:
+   * Click the "Exit" button on the main window to close the application.
+Notes
+* Recipes are saved in a text file named recipes.txt in the same directory as the application script.
+* Each recipe is separated by "---" in the text file.
+* Images recipe1.png and recipe2.png are used for illustration purposes and can be replaced with your own images if desired.
+________________
+
+
+This user manual provides a brief overview of the Recipe Keeper application and instructions on how to perform basic tasks such as saving and viewing recipes. If you have any questions or encounter any issues while using the application, feel free to refer back to this manual or seek further assistance.
